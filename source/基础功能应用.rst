@@ -1,0 +1,25 @@
+Basic Function Application
+============
+
+
+Zero Position Calibration
+--------
+The zero position calibration function allows the robotic arm to accurately locate its initial position. This is important for ensuring the accuracy and repeatability of the robotic arm's movements.
+
+Robotic Arm Control
+----------
+The robotic arm control function allows the user to control the robotic arm's movements. This includes controlling the position, speed, and acceleration of the robotic arm.
+
+Drag-and-Drop Teaching
+--------
+The drag-and-drop teaching function allows the user to program the robotic arm's movements by physically moving it to the desired position. This is a simple and intuitive way to program the robotic arm, and is particularly useful for repetitive tasks.
+
+Emergency Stop
+----
+The emergency stop function allows the user to quickly stop the robotic arm's movements in case of an emergency. This is an important safety feature that can help prevent accidents and injuries.
+
+
+
+Hand-Eye Calibration
+--------
+The hand-eye calibration function allows the user to calibrate the relationship between the robotic arm and the camera. This is important for accurate visual servoing and other applications that require precise coordination between the robotic arm and the camera.
