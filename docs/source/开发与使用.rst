@@ -1,0 +1,81 @@
+Development and Usage
+======================
+
+https://docs.elephantrobotics.com/docs/gitbook/2-serialproduct/2.3-myCobot_Pro_600/2.3.4%20%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%8E%E6%90%AD%E5%BB%BA.html
+
+Linux and ROS Tutorials?
+
+Simulation Environment Configuration
+------------------------------------
+
+Overview of what configuration is sufficient for a local computer and when a server is required.
+Reference: \ https://docs.omniverse.nvidia.com/app_isaacsim/app_isaacsim/tutorial_core_adding_manipulator.html
+
+Local Computer
+~~~~~~~~~~~~~~
+
+Server
+~~~~~~
+
+Real Machine Usage Configuration
+--------------------------------
+
+Environment setup
+~~~~~~~~~~~~~~~~~
+
+Compilation
+~~~~~~~~~~~~~
+
+Developing based on ROS
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Manipulator Control
+^^^^^^^^^^^^^^^^^^^
+
+Manipulator Joint Control
+''''''''''''''''''''''''''
+
+Manipulator Joint Angle Reading
+'''''''''''''''''''''''''''''''''
+
+Manipulator End Effector Pose Control
+''''''''''''''''''''''''''''''''''''''
+
+Manipulator End Effector Pose Reading
+'''''''''''''''''''''''''''''''''''''
+
+End Effector Gripper
+^^^^^^^^^^^^^^^^^^^^
+
+Two-Finger Gripper
+''''''''''''''''''
+
+Gripper2
+'''''''''
+
+Gripper3
+'''''''''
+
+Visual Recognition
+^^^^^^^^^^^^^^^^^^
+
+Camera Raw Data Reading
+''''''''''''''''''''''''
+
+Camera Parameter Reading
+''''''''''''''''''''''''
+
+Color Recognition
+''''''''''''''''''
+
+Shape Recognition
+''''''''''''''''''
+
+Visual Grasping
+^^^^^^^^^^^^^^^^^
+
+Developing based on ROS 2
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Developing based on Python
+~~~~~~~~~~~~~~~~~~~~~~~~~~
