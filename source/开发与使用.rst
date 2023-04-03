@@ -1,8 +1,6 @@
 Development and Usage
 ======================
 
-https://docs.elephantrobotics.com/docs/gitbook/2-serialproduct/2.3-myCobot_Pro_600/2.3.4%20%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%8E%E6%90%AD%E5%BB%BA.html
-
 Linux and ROS Tutorials?
 
 Simulation Environment Configuration
@@ -19,12 +17,31 @@ Server
 
 Real Machine Usage Configuration
 --------------------------------
+.. code:: sh
+
+    # Execute this command every time you connect your PC with the USB2CAN module.
+    sudo ip link set can0 up type can bitrate 1000000
 
 Environment setup
 ~~~~~~~~~~~~~~~~~
+.. code:: sh
+
+    sudo apt install ros-noetic-moveit-ros-move-group ros-noetic-joy liborocos-kdl1.4 libkdl-parser
+    pip install scipy
+    # TODO
 
 Compilation
 ~~~~~~~~~~~~~
+.. code:: sh
+    
+    cd ~/catkin_ws/src
+    git clone https://gitee.com/arx-discover/arx5_ros.git
+    cd arx5_ros
+    git checkout #TODO
+    cd ..
+    cd ~/catkin_ws
+    catkin_make
+    #TODO
 
 Developing based on ROS
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -34,15 +51,50 @@ Manipulator Control
 
 Manipulator Joint Control
 ''''''''''''''''''''''''''
+This part allows us to control the state of the 6 joints of the robotic
+arm. We can perform a simple test through the following process:
+
+Suppose you have launched MoveIt node for ARX5
+
+.. code:: sh
+
+   roslaunch arx5_moveit arx5_moveit.launch #todo
+
+Then try this Python Script to move the robot arm
+
+.. code:: python
+
+    # TODO
 
 Manipulator Joint Angle Reading
 '''''''''''''''''''''''''''''''''
+Through topic /joint_states
+.. code:: sh
+    
+   rostopic echo /joint_states
 
 Manipulator End Effector Pose Control
 ''''''''''''''''''''''''''''''''''''''
 
+This part allows us to control the state of the pose of the end
+effector. We can perform a simple test through the following process:
+
+Suppose you have launched MoveIt node for ARX5
+
+.. code:: sh
+
+   roslaunch arx5_moveit arx5_moveit.launch #todo
+
+Then try this Python Script to move the robot arm
+
+.. code:: python
+
+    # TODO
+
 Manipulator End Effector Pose Reading
 '''''''''''''''''''''''''''''''''''''
+
+TODO
 
 End Effector Gripper
 ^^^^^^^^^^^^^^^^^^^^
