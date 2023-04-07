@@ -13,7 +13,7 @@ To utilize the ARX5 robotic arm's API, developers will need to have a basic unde
 .. raw:: html
 
     <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="720" height="540" src="https://www.youtube.com/watch?v=NW4ZE4y-8hU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="600" height="450" src="https://www.youtube.com/embed/NW4ZE4y-8hU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     
 .. toctree::
