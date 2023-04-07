@@ -3,13 +3,35 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ARX5 Documentation's documentation!
-==============================================
+Documentation
++++++++++++++
+
+Welcome to the ARX5 robotic arm, an advanced and versatile robotic arm designed for a range of industrial and research applications. This document contains information about the installation, operation, and maintenance of the ARX5 robotic arm.
+
+To utilize the ARX5 robotic arm's API, developers will need to have a basic understanding of the `Kinematics Dynamics Library (KDL) <https://www.orocos.org/kdl.html>`_ software, which provides the necessary kinematic and dynamic calculations to control the arm's movements.
 
 .. toctree::
    :maxdepth: 2
+   :hidden:
+   :caption: Introduction
    
-   首次开箱
-   软件构架图
-   基础功能应用
-   开发与使用
+   Installation <introduction/installation>
+   Preparing for Startup <introduction/preparation>
+   Specifications <introduction/specifications>
+   
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: How to Use
+   
+   Environment Configuration <how_to_use/environment>
+   Using the SDK <how_to_use/sdk>
+   ROS Packages <how_to_use/ros>
+   Simulation <how_to_use/simulation>
+   
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Appendix
+
+   API Reference <appendix/api>

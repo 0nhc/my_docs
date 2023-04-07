@@ -1,5 +1,0 @@
-Software Architecture
-======================
-
-.. figure:: ../docs/software_architecture.png
-   :alt: software_architecture
